@@ -42,5 +42,4 @@ jobs:
 
       - run:
           name: deploy
-          command: git subtree push --prefix dist origin gh-pages -f
-
+          command: git subtree push --prefix dist origin gh-pages
