@@ -42,4 +42,6 @@ jobs:
 
       - run:
           name: deploy
-          command: yarn deploy
+          command: git config --global user.email "yuji.g@bytedance.com" &&  git config --global user.name "yuji.g" && yarn deploy
+
+  
