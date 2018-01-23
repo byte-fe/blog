@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "NODE_ENV=development parcel src/index.html",
-    "build": "NODE_ENV=production parcel build src/index.html --public-url ./",
+    "build": "NODE_ENV=production parcel build src/index.html --public-url /",
     "deploy": "gh-pages -d dist",
     "test": "exit 0"
   },
